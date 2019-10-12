@@ -1,0 +1,44 @@
+.ride-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 4px 3px -3px #c3c3c3;
+    padding: 12px;
+}
+
+.auto {
+    height: 40px;
+}
+
+.ride-info > div {
+    margin: 10px 0;
+}
+
+.location-info {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.source, .destination {
+    width: 50vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ride-date {
+    font-weight: bold;
+}
+
+.ellipsis {
+    height: 50px;
+}
+
+.ride-status {
+    display: flex;
+    flex-direction: column;
+}
+.status-img {
+    height: 50px;
+}
